@@ -240,3 +240,8 @@ docker-push: ## Push docker image with the manager.
 .PHONY: bundle
 bundle: deps ## Generate bundle manifests and metadata, then validate generated files.
 	$(MAKE) -C operators/multiclusterobservability bundle
+
+.PHONY: join-clusters
+join-clusters: ## Run E2E tests.
+	@echo "Joining clusters ..."
+	@./cicd-scripts/join-clusters-e2e.sh
