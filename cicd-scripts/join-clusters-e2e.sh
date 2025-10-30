@@ -7,33 +7,33 @@ HUB_API_URL=$(jq -r '.api_url' "${SHARED_DIR}/hub-1.json") &>/dev/null
 TEMP_CA_FILE=$(mktemp)
 
 # Writing hub's CA to a temp file
-kubectl get cm kube-root-ca.crt -n kube-public -o jsonpath='{.data.ca\.crt}' > ${TEMP_CA_FILE}
+kubectl get cm kube-root-ca.crt -n kube-public -o jsonpath='{.data.ca\.crt}' >${TEMP_CA_FILE}
 
 clusteradm init --wait --context ${CTX_HUB_CLUSTER} &>/dev/null
 HUB_TOKEN=$(clusteradm get token --context ${CTX_HUB_CLUSTER})
 
-if [[ -z "${HUB_TOKEN}" ]]; then
+if [[ -z ${HUB_TOKEN} ]]; then
   echo "Error: Failed to get hub token..."
   echo "Skipping join..."
 fi
 
 declare -A CSR_CREATED=()
 
-for ((i=1 ; i <= CLUSTERPOOL_MANAGED_COUNT ; i++)); do
+for ((i = 1; i <= CLUSTERPOOL_MANAGED_COUNT; i++)); do
   if [[ -n ${HUB_TOKEN} ]] && [[ -n ${SHARED_DIR} ]] && [[ -f "${SHARED_DIR}/managed-${i}.json" ]]; then
 
-    export KUBECONFIG="${SHARED_DIR}/managed-${i}.kc" 
+    export KUBECONFIG="${SHARED_DIR}/managed-${i}.kc"
     export CTX_MANAGED_CLUSTER=$(kubectl config current-context)
 
     echo "Join managed-${i} to hub"
 
     clusteradm join \
-        --hub-token ${HUB_TOKEN} \
-        --hub-apiserver ${HUB_API_URL} \
-        --wait \
-        --cluster-name "managed-${i}" \
-        --context ${CTX_MANAGED_CLUSTER} \
-        --ca-file "$TEMP_CA_FILE"
+      --hub-token ${HUB_TOKEN} \
+      --hub-apiserver ${HUB_API_URL} \
+      --wait \
+      --cluster-name "managed-${i}" \
+      --context ${CTX_MANAGED_CLUSTER} \
+      --ca-file "$TEMP_CA_FILE"
     CSR_CREATED[$i]=$i
   fi
 done
@@ -62,5 +62,5 @@ for j in {1..60}; do
   sleep 10
 done
 
-# Checking for agent that runs on the hub cluster
+# Checking that managed clusters were successfully added
 kubectl get managedcluster --context ${CTX_HUB_CLUSTER}
