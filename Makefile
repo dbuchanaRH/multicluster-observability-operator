@@ -242,6 +242,5 @@ bundle: deps ## Generate bundle manifests and metadata, then validate generated 
 	$(MAKE) -C operators/multiclusterobservability bundle
 
 .PHONY: join-clusters
-join-clusters: ## Run E2E tests.
-	@echo "Joining clusters ..."
+join-clusters: ## Join managed clusters to hub cluster.
 	@./cicd-scripts/join-clusters-e2e.sh
