@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright (c) 2025 Red Hat, Inc.
+# Copyright Contributors to the Open Cluster Management project
+
 KUBECONFIG="${SHARED_DIR}/hub-1.kc"
 export KUBECONFIG
 CTX_HUB_CLUSTER=$(kubectl config current-context)
