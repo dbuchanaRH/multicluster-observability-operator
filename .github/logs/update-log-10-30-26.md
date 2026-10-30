@@ -1,0 +1,148 @@
+### Generated logs from GitHub Action: [41049959685](https://github.com/dbuchanaRH/multicluster-observability-operator/actions/runs/41049959685)
+
+- go: downloading github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.94.2
+- go: downloading github.com/prometheus/prometheus v0.315.1
+- go: downloading github.com/prometheus-operator/prometheus-operator v0.94.2
+- go: downloading github.com/openshift/hypershift/api v0.0.0-20261030073222-e43aa412a11a
+- go: downloading github.com/prometheus/client_golang v1.25.0
+- go: downloading github.com/openshift/hypershift v0.1.86
+- go: downloading github.com/prometheus/common v0.73.1
+- go: downloading sigs.k8s.io/controller-runtime v0.25.2
+- go: downloading k8s.io/apimachinery v0.37.2
+- go: downloading k8s.io/client-go v0.37.2
+- go: downloading k8s.io/api v0.37.2
+- go: downloading github.com/openshift/api v0.0.0-20261029222750-c757da50cb18
+- go: downloading github.com/openshift/controller-runtime-common v0.0.0-20261026124434-bdfc411d93cd
+- go: downloading github.com/openshift/library-go v0.0.0-20261028054900-dbcad7febe41
+- go: downloading k8s.io/apiextensions-apiserver v0.37.2
+- go: downloading open-cluster-management.io/api v1.4.0
+- go: downloading k8s.io/utils v0.0.0-20261023123148-ca04ba58ecab
+- go: downloading k8s.io/kubectl v0.37.2
+- go: downloading sigs.k8s.io/kustomize/kyaml v0.21.3
+- go: downloading sigs.k8s.io/kustomize/api v0.21.3
+- go: downloading open-cluster-management.io/addon-framework v1.4.0
+- go: downloading github.com/openshift/client-go v0.0.0-20261027103500-48133ed95dad
+- go: downloading github.com/stolostron/observatorium-operator v0.0.0-20261015073957-0fa42768ebb2
+- go: downloading open-cluster-management.io/governance-policy-propagator v0.20.1
+- go: downloading github.com/cloudflare/cfssl v1.7.1
+- go: downloading github.com/thanos-io/thanos v0.42.5
+- go: downloading github.com/prometheus-operator/prometheus-operator/pkg/client v0.94.2
+- go: downloading k8s.io/component-base v0.37.2
+- go: downloading github.com/onsi/ginkgo/v2 v2.33.1
+- go: downloading github.com/onsi/gomega v1.44.0
+- go: downloading github.com/prometheus/alertmanager v0.34.2
+- go: downloading github.com/prometheus/procfs v0.23.0
+- go: downloading golang.org/x/sys v0.49.0
+- go: downloading golang.org/x/text v0.43.0
+- go: downloading golang.org/x/term v0.47.0
+- go: downloading go.opentelemetry.io/otel v1.47.0
+- go: downloading go.opentelemetry.io/otel/trace v1.47.0
+- go: downloading golang.org/x/net v0.62.0
+- go: downloading k8s.io/kube-openapi v0.0.0-20261014044854-ca3452a79603
+- go: downloading golang.org/x/time v0.16.0
+- go: downloading k8s.io/apiserver v0.37.2
+- go: downloading k8s.io/kube-aggregator v0.37.2
+- go: downloading sigs.k8s.io/json v0.0.0-20260909141634-11ed52e25bc5
+- go: downloading github.com/zmap/zlint/v3 v3.7.2
+- go: downloading github.com/google/certificate-transparency-go v1.4.0
+- go: downloading github.com/zmap/zcrypto v0.0.0-20261025225231-4cf7949d2321
+- go: downloading open-cluster-management.io/sdk-go v1.4.0
+- go: downloading golang.org/x/oauth2 v0.37.0
+- go: downloading github.com/go-openapi/strfmt v0.27.4
+- go: downloading go.uber.org/atomic v1.12.0
+- go: downloading golang.org/x/exp v0.0.0-20261014143641-f0251eb4aa3e
+- go: downloading github.com/go-openapi/errors v0.22.9
+- go: downloading github.com/go-openapi/swag v0.29.2
+- go: downloading github.com/go-openapi/validate v1.0.1
+- go: downloading go.opentelemetry.io/otel/metric v1.47.0
+- go: downloading github.com/fxamacker/cbor/v2 v2.10.0
+- go: downloading github.com/go-openapi/jsonreference v1.0.3
+- go: downloading golang.org/x/crypto v0.58.0
+- go: downloading github.com/jpillora/backoff v1.1.0
+- go: downloading go.mongodb.org/mongo-driver v1.17.10
+- go: downloading google.golang.org/grpc v1.85.0
+- go: downloading go.opentelemetry.io/otel/sdk v1.47.0
+- go: downloading golang.org/x/tools v0.52.0
+- go: downloading github.com/aws/aws-sdk-go-v2 v1.47.5
+- go: downloading github.com/aws/aws-sdk-go-v2/config v1.33.12
+- go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.20.12
+- go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.51.6
+- go: downloading github.com/go-openapi/swag/conv v0.29.2
+- go: downloading github.com/go-openapi/swag/cmdutils v0.29.2
+- go: downloading github.com/go-openapi/swag/fileutils v0.29.2
+- go: downloading github.com/go-openapi/swag/jsonname v0.29.2
+- go: downloading github.com/go-openapi/swag/jsonutils v0.29.2
+- go: downloading github.com/go-openapi/swag/mangling v0.29.2
+- go: downloading github.com/go-openapi/swag/loading v0.29.2
+- go: downloading github.com/go-openapi/swag/netutils v0.29.2
+- go: downloading github.com/go-openapi/swag/stringutils v0.29.2
+- go: downloading github.com/go-openapi/swag/typeutils v0.29.2
+- go: downloading github.com/go-openapi/swag/yamlutils v0.29.2
+- go: downloading github.com/go-openapi/analysis v1.0.1
+- go: downloading github.com/go-openapi/jsonpointer v1.0.2
+- go: downloading github.com/go-openapi/loads v0.25.3
+- go: downloading github.com/go-openapi/spec v1.0.1
+- go: downloading github.com/Azure/azure-sdk-for-go/sdk/azcore v1.23.3
+- go: downloading github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.15.0
+- go: downloading google.golang.org/api v0.310.0
+- go: downloading golang.org/x/sync v0.24.0
+- go: downloading github.com/emicklei/go-restful/v3 v3.14.0
+- go: downloading go.opentelemetry.io/contrib/propagators/autoprop v0.72.0
+- go: downloading go.opentelemetry.io/contrib v1.47.0
+- go: downloading go.opentelemetry.io/otel/bridge/opentracing v1.47.0
+- go: downloading github.com/aws/smithy-go v1.28.7
+- go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.20.5
+- go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.39.0
+- go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.5.8
+- go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.44.0
+- go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.23
+- go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.14.8
+- go: downloading cloud.google.com/go/compute/metadata v0.10.0
+- go: downloading cloud.google.com/go/compute v1.74.1
+- go: downloading github.com/Azure/azure-sdk-for-go/sdk/internal v1.13.0
+- go: downloading github.com/AzureAD/microsoft-authentication-library-for-go v1.10.1
+- go: downloading cloud.google.com/go/auth v0.24.2
+- go: downloading cloud.google.com/go/auth/oauth2adapt v0.3.1
+- go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.72.0
+- go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20261026165753-2ffab32bce7e
+- go: downloading google.golang.org/genproto v0.0.0-20261026165753-2ffab32bce7e
+- go: downloading go.opentelemetry.io/contrib/propagators/aws v1.47.0
+- go: downloading go.opentelemetry.io/contrib/propagators/b3 v1.47.0
+- go: downloading go.opentelemetry.io/contrib/propagators/jaeger v1.47.0
+- go: downloading go.opentelemetry.io/contrib/propagators/ot v1.47.0
+- go: downloading github.com/google/pprof v0.0.0-20261026192309-dbd0ed30aa88
+- go: downloading golang.org/x/mod v0.42.0
+- go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.8.8
+- go: downloading github.com/google/s2a-go v0.1.11
+- go: downloading github.com/googleapis/gax-go/v2 v2.27.0
+- go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.24
+- go: downloading github.com/xhit/go-str2duration/v2 v2.2.0
+- go: github.com/zmap/zcrypto@v0.0.0-20261025225231-4cf7949d2321 requires go >= 1.27.0; switching to go1.27.3
+- go: downloading go1.27.3 (linux/amd64)
+- go: all: module cloud.google.com/go/auth@upgrade found (v0.24.2), but does not contain package cloud.google.com/go/auth/internal/trustboundary
+- go: all: module github.com/prometheus/procfs@upgrade found (v0.23.0), but does not contain package github.com/prometheus/procfs/internal/util
+- go: all: module github.com/prometheus/prometheus@upgrade found (v0.315.1), but does not contain package github.com/prometheus/prometheus/tsdb/errors
+- go: all: module golang.org/x/tools@upgrade found (v0.52.0), but does not contain package golang.org/x/tools/internal/aliases
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/autoscaling/v2beta1
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/autoscaling/v2beta2
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/scheduling/v1alpha1
+- go: all: module k8s.io/kube-openapi@upgrade found (v0.0.0-20261014044854-ca3452a79603), but does not contain package k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
+- go: all: module open-cluster-management.io/addon-framework@upgrade found (v1.4.0), but does not contain package open-cluster-management.io/addon-framework/pkg/addonmanager/controllers/cmamanagedby
+
+#### Failed to update the outdated go modules dependencies successfully. Manual updating is needed to resolve the dependecies issue.
+---
