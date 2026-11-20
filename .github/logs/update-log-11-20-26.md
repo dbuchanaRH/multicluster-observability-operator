@@ -1,0 +1,46 @@
+### Generated logs from GitHub Action: [44753206310](https://github.com/dbuchanaRH/multicluster-observability-operator/actions/runs/44753206310)
+
+- go: downloading github.com/openshift/hypershift/api v0.0.0-20261119155400-0f43b296814d
+- go: downloading github.com/openshift/api v0.0.0-20261120004813-41d935148e5e
+- go: downloading github.com/openshift/library-go v0.0.0-20261120134353-3f167e8fd79a
+- go: downloading github.com/cloudflare/cfssl v1.7.2
+- go: downloading golang.org/x/net v0.63.0
+- go: downloading golang.org/x/exp v0.0.0-20261120130654-b6de8d37927a
+- go: downloading github.com/go-openapi/validate v1.0.3
+- go: downloading golang.org/x/tools v0.53.0
+- go: downloading github.com/go-openapi/jsonpointer v1.0.3
+- go: downloading github.com/aws/aws-sdk-go-v2/config v1.33.21
+- go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.21.3
+- go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.53.0
+- go: downloading google.golang.org/api v0.316.0
+- go: downloading google.golang.org/genproto v0.0.0-20261118221215-c8830f628b3f
+- go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20261118221215-c8830f628b3f
+- go: downloading github.com/google/pprof v0.0.0-20261118010117-084b33a85f63
+- go: github.com/zmap/zcrypto@v0.0.0-20261025225231-4cf7949d2321 requires go >= 1.27.0; switching to go1.27.4
+- go: all: module cloud.google.com/go/auth@upgrade found (v0.24.4), but does not contain package cloud.google.com/go/auth/internal/trustboundary
+- go: all: module github.com/prometheus/procfs@upgrade found (v0.23.0), but does not contain package github.com/prometheus/procfs/internal/util
+- go: all: module github.com/prometheus/prometheus@upgrade found (v0.316.0), but does not contain package github.com/prometheus/prometheus/tsdb/errors
+- go: all: module golang.org/x/tools@upgrade found (v0.53.0), but does not contain package golang.org/x/tools/internal/aliases
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/autoscaling/v2beta1
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/autoscaling/v2beta2
+- go: all: module k8s.io/api@upgrade found (v0.37.2), but does not contain package k8s.io/api/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/applyconfigurations/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/informers/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1/fake
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/autoscaling/v2beta1
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/autoscaling/v2beta2
+- go: all: module k8s.io/client-go@upgrade found (v0.37.2), but does not contain package k8s.io/client-go/listers/scheduling/v1alpha1
+- go: all: module k8s.io/kube-openapi@upgrade found (v0.0.0-20261104182252-5bee61fc5225), but does not contain package k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
+- go: all: module open-cluster-management.io/addon-framework@upgrade found (v1.4.0), but does not contain package open-cluster-management.io/addon-framework/pkg/addonmanager/controllers/cmamanagedby
+
+#### Failed to update the outdated go modules dependencies successfully. Manual updating is needed to resolve the dependecies issue.
+---
